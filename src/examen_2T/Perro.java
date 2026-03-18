@@ -23,4 +23,8 @@ public class Perro extends Animal {
         "} " +
         ']';
   }
+
+  public String getRaza() {
+    return raza;
+  }
 }

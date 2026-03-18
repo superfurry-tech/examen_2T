@@ -27,7 +27,15 @@ public class Main {
     System.out.println("\nPreparen sus oídos: ");
     r1.hacerConcierto(lista);
 
-    System.out.println(r1.buscarPorEspecie(p3));
+    /*
+    System.out.println(r1.buscarPorEspecie(g3));
+    Este lo comento porque no me va. Solo me imprime un perro. El else de los gatos también está mal pero ya no fui a por él al no irme el array de la listaPerros
+
+    */
+
+    System.out.println("\n" + p3.getNombre() + " tendría " + Animal.calcularEdadHumana(p3.getEdad()) + " años si fuese un humano");
+
+
 
 
   }

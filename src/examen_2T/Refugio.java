@@ -36,7 +36,9 @@ public class Refugio {
     ArrayList<Animal> listaGatos = new ArrayList<>();
     if (animalReferencia instanceof Perro) {
       for (Animal a : listaAnimales) {
-        listaPerros.add(a);
+        Perro p = (Perro) a;
+        if (p.getRaza() != null);
+        listaPerros.add(p);
         return listaPerros;
       }
     } else {
